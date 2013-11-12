@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Stephen Brawner's Home Page</title>
+</head>
+<body>
+<h1><img src="face.gif"> Stephen Brawner</h1>
+<hr />
+<p>
+brawner at cs.brown.edu
+</p>
+<p>
+Box 1910, Computer Science Department<br />
+Brown University<br />
+Providence, RI 02912<br />
+401-863-7600<br />
+</p>
+<hr />
+<a href="/">CS Home Page</a>
+</body>
+</html>

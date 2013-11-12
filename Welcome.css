@@ -1,0 +1,77 @@
+
+p#position
+{
+color: #D8D8D8;
+position: relative;
+top: -50px;
+left: 300px;
+font-family: helvetica;
+font-style: italic;
+font-size: 48px;
+}
+
+div.body
+{
+border-radius: 0px 0px 15px 15px;
+-moz-border-radius:  0px 0px 15px 15px;
+background-color: #efefef;
+position: relative;
+top: -6em;
+left: 0px;
+width: 850px;
+color: #000000;
+font-family: helvetica;
+font-size: 14px;
+}
+
+p.details
+{
+position: relative;
+width: 525px;
+padding: 10px;
+}
+
+
+img#self1
+{
+padding: 10px;
+position: absolute;
+top: -5em;
+left: 575px;
+}
+
+div#image
+{
+width: 250px;
+height: 306px;
+position: absolute;
+left: 575px;
+top: 2em;
+border: 15px;
+border-color:#efefef;
+-moz-border-radius: 15px;
+border-radius: 15px;
+background-color: #efefef;
+background: url('portrait.jpg');
+}
+
+A.intext:link 
+{
+color: #000000; 
+text-decoration: underline; 
+}
+A.intext:visited 
+{
+color: #000000; 
+text-decoration: underline; 
+}
+A.intext:hover 
+{
+color: #0000ff; 
+text-decoration: none; 
+}
+A.intext:active 
+{
+color: #000000; 
+text-decoration: underline; 
+}
