@@ -62,7 +62,7 @@ text-decoration: underline;
 }
 A.intext:hover 
 {
-color: #ff0000; 
+color: #0000ff; 
 text-decoration: none; 
 }
 A.intext:active 
@@ -108,7 +108,6 @@ background-color: #efefef;
 font-size: 20px;
 font-family: helvetica;
 font-size: 14px;
-width: 525px;
 }
 
 div.beer
