@@ -32,6 +32,10 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
     <link href="assets/lib/remodal/remodal.css" rel="stylesheet">
     <link href="assets/lib/remodal/remodal-default-theme.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.css" rel="stylesheet">
+    <link href="assets/lib/semantic-ui-accordion/accordion.min.css" rel="stylesheet">
+    <link href="assets/lib/semantic-ui-transition/transition.min.css" rel="stylesheet">
     <link href="assets/css/theme.css" rel="stylesheet">
 
   </head>
@@ -60,9 +64,9 @@
             <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
           </svg>
         </div>
-        <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll">
+        <!--<div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll">
           <a class="fancynavbar-addon-item" href="#"><span class="fab fa-twitter"></span></a>
-          <a class="fancynavbar-addon-item" href="#" data-remodal-target="language"><span class="text-sans-serif ls font-weight-black fs--1">EN</span></a>
+          <a class="fancynavbar-addon-item" href="#" data-remodal-target="language"><span class="text-sans-serif ls font-weight-black fs--1">EN</span></a>-->
         </div>
       </div>
       <div class="fancynavbar-collapse">
@@ -118,17 +122,183 @@
       </div>
       <!-- ============================================-->
       <!-- End of Preloader ===========================-->
+      <div class="p-0 minh-100vh" id="studio-header" data-zanim-lg='{"delay":0.6,"animation":"zoom-out"}' data-zanim-trigger="scroll">
+        <div class="owl-carousel owl-theme owl-theme-nav-right owl-dots-inner owl-theme-white" data-options='{"items":1,"autoplay":true,"dots":true,"loop":true,"animateOut":"fadeOut","mouseDrag":false,"nav":true,"responsive":{"768":{"dots":false,"autoplay":false}}}'>
+
+
+          <!-- ============================================-->
+          <!-- <section> begin ============================-->
+          <section class="py-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+
+            <div class="bg-holder overlay" style="background-image:url(assets/img/headers/studio-music.jpg);">
+              <div class="bg-youtube" data-property='{"videoURL":"https://vimeo.com/106226282","startAt":11,"stopAt":53,"mute":true,"showYTLogo":false}'></div>
+            </div>
+            <!--/.bg-holder-->
+
+            <div class="container">
+              <div class="row minh-100vh align-items-center py-8">
+                <div class="col-lg-8">
+                  <div class="overflow-hidden">
+                    <h1 class="fs-4 fs-md-5 display-4 text-white" data-zanim-xs='{"delay":0.8}'>Robotics research and software consulting</h1>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p class="text-white font-italic mt-5" data-zanim-xs='{"delay":0.9}'>Accelerate your product's development</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .container-->
+
+          </section>
+          <!-- <section> close ============================-->
+          <!-- ============================================-->
+
+
+
+
+          <!-- ============================================-->
+          <!-- <section> begin ============================-->
+          <section class="item py-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+
+            <div class="bg-holder" style="background-image:url(assets/img/headers/studio-recording.jpg);">
+            </div>
+            <!--/.bg-holder-->
+
+            <div class="container">
+              <div class="row minh-100vh align-items-center py-8">
+                <div class="col-lg-8">
+                  <div class="overflow-hidden">
+                    <h1 class="fs-4 fs-md-5 display-4 text-white" data-zanim-xs='{"delay":0}'>Design, Build, Test</h1>
+                  </div>
+                  <div class="overflow-hidden">
+                    <div class="row" data-zanim-xs='{"delay":0.1}'>
+                      <div class="col-lg-8">
+                        <p class="text-300 text-sans-serif mt-4">Integrate hardware design with sophisticated programming</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-zanim-xs='{"delay":0.2}'>
+                    <a class="btn btn-outline-light border-white btn-sm mt-5" href="#">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .container-->
+
+          </section>
+          <!-- <section> close ============================-->
+          <!-- ============================================-->
+
+
+
+
+          <!-- ============================================-->
+          <!-- <section> begin ============================-->
+          <section class="item py-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+
+            <div class="bg-holder overlay overlay-0" style="background-image:url(assets/img/headers/studio-services.jpg);">
+            </div>
+            <!--/.bg-holder-->
+
+            <div class="container">
+              <div class="row minh-100vh align-items-center py-8">
+                <div class="col-lg-8">
+                  <div class="overflow-hidden">
+                    <h1 class="fs-4 fs-md-5 display-4 text-white" data-zanim-xs='{"delay":0}'>When you're not even sure where to start</h1>
+                  </div>
+                  <div class="overflow-hidden">
+                    <div class="row" data-zanim-xs='{"delay":0.1}'>
+                      <div class="col-lg-8">
+                        <p class="text-300 text-sans-serif mt-4">Free consultation to understand requirements and scope of project</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-zanim-xs='{"delay":0.2}'>
+                    <a class="btn btn-outline-light border-white btn-sm mt-5" href="#">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .container-->
+
+          </section>
+          <!-- <section> close ============================-->
+          <!-- ============================================-->
+
+
+        </div>
+      </div>
 
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="text-center py-0">
+      <section class="py-0" id="page-services">
 
-        <div class="container">
-          <div class="row minh-100vh align-items-center justify-content-center">
-            <div>
-              <h1 class="text-dark display-4 mb-4">Let's go</h1>
-              <a class="btn btn-primary" href="documentation/getting-started.html">Getting started</a>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 px-0 order-lg-2">
+              <div class="sticky-top h-lg-100vh py-9">
+                <div class="bg-holder" style="background-image:url(assets/img/headers/header-48.jpg);" data-zanim-trigger="scroll" data-zanim-lg='{"animation":"zoom-out-slide-left","delay":0.4}'>
+                </div>
+                <!--/.bg-holder-->
+
+              </div>
+            </div>
+            <div class="col-lg-6 bg-white py-6">
+              <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-sm-11 col-md-8 col-lg-11 col-xl-9 px-xl-5">
+                  <div class="mb-5 mb-lg-7 oveflow-hidden">
+                    <h1 class="text-underline fs-4 fs-md-5" data-zanim-xs='{"delay":0}' data-zanim-trigger="scroll">Services</h1>
+                  </div>
+                  <div class="media mb-5 card-service" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="oveflow-hidden">
+                      <img class="mr-3 mr-sm-4" src="assets/img/icons/icon-target.svg" alt="" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                    </div>
+                    <div class="media-body">
+                      <div class="overflow-hidden">
+                        <h4 class="mb-2" data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>Robotics Software Development</h4>
+                      </div>
+                      <div class="overflow-hidden">
+                        <p class="mb-0" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Add functionality and integrate with the latest ROS software</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="media mb-5 card-service" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="oveflow-hidden">
+                      <img class="mr-3 mr-sm-4" src="assets/img/icons/icon-target.svg" alt="" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                    </div>
+                    <div class="media-body">
+                      <div class="overflow-hidden">
+                        <h4 class="mb-2" data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>Research and develop new algorithms</h4>
+                      </div>
+                      <div class="overflow-hidden">
+                        <p class="mb-0" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>When nothing currently exists that suits your needs</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="media mb-5 card-service" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="oveflow-hidden">
+                      <img class="mr-3 mr-sm-4" src="assets/img/icons/icon-target.svg" alt="" width="50" data-zanim-xs='{"delay":0.4,"animation":"slide-right"}' />
+                    </div>
+
+                    <div class="media-body">
+                      <div class="overflow-hidden">
+                        <h4 class="mb-2" data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>Build and Code</h4>
+                      </div>
+                      <div class="overflow-hidden">
+                        <p class="mb-0" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>When you need a product that requires mechanical and electrical design as well as sophisticated programming</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-zanim-xs='{"delay":0.8}' data-zanim-trigger="scroll">
+                    <a class="btn btn-outline-dark mt-4" href="portfolio.html">Past Projects</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -150,7 +320,7 @@
     <!--===============================================-->
     <!--    Footer-->
     <!--===============================================-->
-    <!--<footer class="footer bg-black text-600 py-4 text-sans-serif text-center overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+    <footer class="footer bg-black text-600 py-4 text-sans-serif text-center overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 order-lg-2">
@@ -167,7 +337,7 @@
           </div>
         </div>
       </div>
-    </footer>-->
+    </footer>
 
 
     <!--===============================================-->
@@ -178,6 +348,15 @@
       <ul class="list-unstyled pl-0 my-0 py-4 text-sans-serif">
         <li>
           <a class="pt-1 d-block text-white font-weight-semi-bold" href="#">English</a>
+        </li>
+        <li>
+          <a class="pt-1 d-block text-500" href="#">Français</a>
+        </li>
+        <li>
+          <a class="pt-1 d-block text-500" href="page-rtl.html">عربى</a>
+        </li>
+        <li>
+          <a class="pt-1 d-block text-500" href="#">Deutsche</a>
         </li>
       </ul>
     </div>
@@ -194,7 +373,12 @@
     <script src="assets/js/stickyfill.min.js"></script>
     <script src="assets/lib/remodal/remodal.js"></script>
     <script src="assets/js/rellax.min.js"></script>
+    <script src="assets/lib/owl.carousel/owl.carousel.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/lib/semantic-ui-accordion/accordion.min.js"></script>
+    <script src="assets/lib/semantic-ui-transition/transition.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoK8GIrOHzHwnzHCyqrdtmTpUWcdrTTD8&callback=initMap" async></script>
 
   </body>
 
